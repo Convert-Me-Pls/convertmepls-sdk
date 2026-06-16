@@ -1,5 +1,9 @@
 # @convert-me-pls/sdk
 
+[![npm](https://img.shields.io/npm/v/@convert-me-pls/sdk.svg)](https://www.npmjs.com/package/@convert-me-pls/sdk)
+
+**Links:** [npm](https://www.npmjs.com/package/@convert-me-pls/sdk) · [GitHub](https://github.com/Convert-Me-Pls/convertmepls-sdk) · [API docs](https://convertmepls.com/en/docs)
+
 Official JavaScript / TypeScript SDK for the [Convert Me Pls](https://convertmepls.com) file-conversion API. Convert and compress images, video, and audio (68 formats, ~1,500 conversion pairs) with one call. Zero dependencies — works in Node 18+ and the browser (uses global `fetch`).
 
 ## Install
