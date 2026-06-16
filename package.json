@@ -1,5 +1,5 @@
 {
-  "name": "@convertmepls/sdk",
+  "name": "@convert-me-pls/sdk",
   "version": "1.0.0",
   "description": "Official JavaScript/TypeScript SDK for the ConvertMePls file conversion API.",
   "type": "module",

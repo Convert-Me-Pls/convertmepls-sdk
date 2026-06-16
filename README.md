@@ -1,17 +1,17 @@
-# @convertmepls/sdk
+# @convert-me-pls/sdk
 
 Official JavaScript / TypeScript SDK for the [Convert Me Pls](https://convertmepls.com) file-conversion API. Convert and compress images, video, and audio (68 formats, ~1,500 conversion pairs) with one call. Zero dependencies — works in Node 18+ and the browser (uses global `fetch`).
 
 ## Install
 
 ```bash
-npm install @convertmepls/sdk
+npm install @convert-me-pls/sdk
 ```
 
 ## Quick start
 
 ```ts
-import { ConvertMePls } from '@convertmepls/sdk';
+import { ConvertMePls } from '@convert-me-pls/sdk';
 
 const cmp = new ConvertMePls({ apiKey: 'gck_live_…' }); // create a key in your dashboard
 
