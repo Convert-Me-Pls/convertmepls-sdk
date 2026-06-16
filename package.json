@@ -1,0 +1,49 @@
+{
+  "name": "@convertmepls/sdk",
+  "version": "1.0.0",
+  "description": "Official JavaScript/TypeScript SDK for the ConvertMePls file conversion API.",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Convert-Me-Pls/convertmepls-sdk.git"
+  },
+  "homepage": "https://convertmepls.com/en/docs/sdk",
+  "bugs": {
+    "url": "https://github.com/Convert-Me-Pls/convertmepls-sdk/issues"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "node --import tsx --test test/*.test.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "convertmepls",
+    "file-conversion",
+    "image",
+    "video",
+    "audio",
+    "ffmpeg"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  }
+}
